@@ -40,31 +40,51 @@ header>h1{
 header>p{
     padding-top: 10px;
     padding-bottom: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover{
+    text-decoration: underline;
 }
 
 section>pre{
     white-space: pre-line;
-    padding-left: 30px;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    padding-left: 30px;
     line-height: 2em;
     font-size: 3.5vw;
     font-family: var(--fonte2);
     font-weight: bold;
 }
 
-section#img01{
-    background-color: rgba(0, 0, 0, 0.507);
-    width: 600px;
-    margin: 30px;
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-section.imagem{
+section.imagem>pre{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.507);
+    text-shadow: 1px 1px 0px black;
+    padding: 5px;
+    margin: 25px;
+}
+
+section#img01{
     background-image: url(imagens/catedral.jpg);
-    background-attachment: fixed;
-    background-size: cover;
     background-position: left center;
-    color: white;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 footer{
@@ -72,4 +92,15 @@ footer{
     padding: 10px;
     background-color: var(--cor1);
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
