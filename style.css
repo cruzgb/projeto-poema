@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+:root{
+    --fonte1: 'Rowdies', Arial, Helvetica, sans-serif;
+    --fonte2: 'Handlee', cursive, sans-serif;
+
+    --cor1: #011627;
+    --cor2: #E9D985;
+    --cor3: #f3dfa2;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    min-height: 100vh;
+    background-color: var(--cor3);
+}
+
+header{
+    text-align: center;
+    background-color: var(--cor1);
+    color: white;
+}
+
+header>h1{
+    padding-top: 50px;
+    font-family: var(--fonte1);
+    font-variant: small-caps;
+    font-size: 8vw;
+}
+
+header>p{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+section>pre{
+    white-space: pre-line;
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-size: 3.5vw;
+    font-family: var(--fonte2);
+    font-weight: bold;
+}
+
+section#img01{
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 600px;
+    margin: 30px;
+}
+
+section.imagem{
+    background-image: url(imagens/catedral.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left center;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: var(--cor1);
+    color: white;
+}
