@@ -84,7 +84,7 @@ section.imagem>pre{
 
 section#img01{
     background-image: url(imagens/catedral.jpg);
-    background-position: left center;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
